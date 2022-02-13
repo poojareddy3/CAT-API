@@ -1,0 +1,132 @@
+/* GENERAL STYLES */
+
+/* FONTS */
+  /* headers:
+      /* font-family: 'Karla', sans-serif; */
+  /* regular text */
+      /* font-family: 'Lora', serif; */
+
+
+/* COLORS */
+  /* dark blue for some texts and backgrounds = #000033 */
+  /* white / lightblue gradient background = linear-gradient(to right, white, lightblue) */
+  body {
+    background: linear-gradient(to right,white, lightblue);
+  }
+  nav {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .logo-home {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  /* general css */
+  
+  
+  
+  /* header section */
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    font-family: 'Karla', sans-serif;
+  }
+  
+  h1 {
+    font-size: 180px;
+  }
+  
+  h2 {
+    font-size: 50px;
+  
+    height: 200px;
+  }
+  
+  /* hero section */
+  #hero-text {
+  
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-self: center;
+    height: 400px;
+  }
+  #hero-section{
+    display: flex;
+  
+  }
+  
+  #hero-image {
+    width: 700px;
+  }
+  
+  /* pic section */
+  /* you may want to try using object-fit:cover; */
+  #tried {
+    border: black 1px solid;
+      background: #010733;
+      color: white;
+      height: 110px;
+      width: 350px;
+      font-size: 65px;
+  }
+  #trying {
+    background: #b7dce9;
+    border: darkblue 1px solid;
+  }
+  
+  /* vid section */
+  
+  #vid-gallery {
+    display: flex;
+    background: linear-gradient(to right, white, lightblue);
+    padding: 20px 0 20px 0;
+  }
+  
+  .video {
+    width: 48%;
+    margin: 0 auto;
+  }
+  
+  /* copied video responsive from https://www.ostraining.com/blog/coding/responsive-videos/ */
+  
+  .video-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+  }
+  
+  .video-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
+  
+  
+  /* review section */
+  
+  
+  
+  /* contact section */
+  
+  
+  
+  /* try.html page */
+  
+  #logo {
+    display: flex;
+      justify-content: flex-end;
+      align-content: center;
+      width: 40px;
+  }
